@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "+qU99XM8vUqH5xfIX5Jq1fwh+t0hG3x79jxpN2xDqsppJIC+6WbNfep8jkDUs6gEy/LTgF/yTC+/2pRDf+Dzgw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\mobin\\RiderProjects\\CarRental\\CarRental.Domain\\CarRental.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mobin\\.nuget\\packages\\fluentvalidation\\11.5.1\\fluentvalidation.11.5.1.nupkg.sha512",
+    "C:\\Users\\mobin\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.0\\fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
+    "C:\\Users\\mobin\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.5.1\\fluentvalidation.dependencyinjectionextensions.11.5.1.nupkg.sha512",
+    "C:\\Users\\mobin\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.1.0\\microsoft.extensions.dependencyinjection.abstractions.2.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}

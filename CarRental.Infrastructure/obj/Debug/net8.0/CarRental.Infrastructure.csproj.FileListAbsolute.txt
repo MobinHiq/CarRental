@@ -1,0 +1,17 @@
+C:\Users\mobin\RiderProjects\CarRental\CarRental.Infrastructure\bin\Debug\net8.0\CarRental.Infrastructure.deps.json
+C:\Users\mobin\RiderProjects\CarRental\CarRental.Infrastructure\bin\Debug\net8.0\CarRental.Infrastructure.runtimeconfig.json
+C:\Users\mobin\RiderProjects\CarRental\CarRental.Infrastructure\bin\Debug\net8.0\CarRental.Infrastructure.dll
+C:\Users\mobin\RiderProjects\CarRental\CarRental.Infrastructure\bin\Debug\net8.0\CarRental.Infrastructure.pdb
+C:\Users\mobin\RiderProjects\CarRental\CarRental.Infrastructure\bin\Debug\net8.0\CarRental.Domain.dll
+C:\Users\mobin\RiderProjects\CarRental\CarRental.Infrastructure\bin\Debug\net8.0\CarRental.Domain.pdb
+C:\Users\mobin\RiderProjects\CarRental\CarRental.Infrastructure\obj\Debug\net8.0\CarRental.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\mobin\RiderProjects\CarRental\CarRental.Infrastructure\obj\Debug\net8.0\CarRental.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mobin\RiderProjects\CarRental\CarRental.Infrastructure\obj\Debug\net8.0\CarRental.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\mobin\RiderProjects\CarRental\CarRental.Infrastructure\obj\Debug\net8.0\CarRental.Infrastructure.AssemblyInfo.cs
+C:\Users\mobin\RiderProjects\CarRental\CarRental.Infrastructure\obj\Debug\net8.0\CarRental.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\mobin\RiderProjects\CarRental\CarRental.Infrastructure\obj\Debug\net8.0\CarRenta.CD2C48B0.Up2Date
+C:\Users\mobin\RiderProjects\CarRental\CarRental.Infrastructure\obj\Debug\net8.0\CarRental.Infrastructure.dll
+C:\Users\mobin\RiderProjects\CarRental\CarRental.Infrastructure\obj\Debug\net8.0\refint\CarRental.Infrastructure.dll
+C:\Users\mobin\RiderProjects\CarRental\CarRental.Infrastructure\obj\Debug\net8.0\CarRental.Infrastructure.pdb
+C:\Users\mobin\RiderProjects\CarRental\CarRental.Infrastructure\obj\Debug\net8.0\CarRental.Infrastructure.genruntimeconfig.cache
+C:\Users\mobin\RiderProjects\CarRental\CarRental.Infrastructure\obj\Debug\net8.0\ref\CarRental.Infrastructure.dll
