@@ -6,6 +6,7 @@ using CarRental.Domain.Entities;
 using CarRental.Domain.Interfaces;
 using CarRental.Application.Exceptions;
 using FluentValidation;
+using CarRental.Application.Queries;
 
 namespace CarRental.API.Controllers
 {
@@ -14,18 +15,15 @@ namespace CarRental.API.Controllers
     public class RentalController : ControllerBase
     {
         private readonly IMediator _mediator;
-        private readonly IRentalRepository _rentalRepository;
         private readonly IValidator<RentalPickupRequest> _pickupValidator;
         private readonly IValidator<ReturnRequest> _returnValidator;
 
         public RentalController(
-            IMediator mediator, 
-            IRentalRepository rentalRepository,
+            IMediator mediator,
             IValidator<RentalPickupRequest> pickupValidator,
             IValidator<ReturnRequest> returnValidator)
         {
             _mediator = mediator;
-            _rentalRepository = rentalRepository;
             _pickupValidator = pickupValidator;
             _returnValidator = returnValidator;
         }
@@ -33,18 +31,14 @@ namespace CarRental.API.Controllers
         [HttpGet]
         public async Task<IActionResult> GetAllRentals()
         {
-            var rentals = await _rentalRepository.GetAllAsync();
+            var rentals = await _mediator.Send(new GetAllRentalsQuery());
             return Ok(rentals);
         }
 
         [HttpGet("{bookingNumber}")]
         public async Task<IActionResult> GetRentalByBookingNumber(string bookingNumber)
         {
-            var rental = await _rentalRepository.GetByBookingNumberAsync(bookingNumber);
-            if (rental == null)
-            {
-                throw new NotFoundException($"Rental with booking number {bookingNumber} not found");
-            }
+            var rental = await _mediator.Send(new GetRentalByBookingNumberQuery { BookingNumber = bookingNumber });
             return Ok(rental);
         }
 
@@ -101,26 +95,14 @@ namespace CarRental.API.Controllers
                 throw new BadRequestException("Booking number mismatch");
             }
 
-            var existingRental = await _rentalRepository.GetByBookingNumberAsync(bookingNumber);
-            if (existingRental == null)
-            {
-                throw new NotFoundException($"Rental with booking number {bookingNumber} not found");
-            }
-
-            var updatedRental = await _rentalRepository.UpdateAsync(rental);
+            var updatedRental = await _mediator.Send(new UpdateRentalCommand { Rental = rental });
             return Ok(updatedRental);
         }
 
         [HttpDelete("{bookingNumber}")]
         public async Task<IActionResult> DeleteRental(string bookingNumber)
         {
-            var rental = await _rentalRepository.GetByBookingNumberAsync(bookingNumber);
-            if (rental == null)
-            {
-                throw new NotFoundException($"Rental with booking number {bookingNumber} not found");
-            }
-
-            await _rentalRepository.DeleteAsync(bookingNumber);
+            await _mediator.Send(new DeleteRentalCommand { BookingNumber = bookingNumber });
             return NoContent();
         }
     }

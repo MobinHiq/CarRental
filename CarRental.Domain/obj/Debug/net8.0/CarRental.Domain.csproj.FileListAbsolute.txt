@@ -10,3 +10,4 @@ C:\Users\mobin\RiderProjects\CarRental\CarRental.Domain\obj\Debug\net8.0\CarRent
 C:\Users\mobin\RiderProjects\CarRental\CarRental.Domain\obj\Debug\net8.0\refint\CarRental.Domain.dll
 C:\Users\mobin\RiderProjects\CarRental\CarRental.Domain\obj\Debug\net8.0\CarRental.Domain.pdb
 C:\Users\mobin\RiderProjects\CarRental\CarRental.Domain\obj\Debug\net8.0\ref\CarRental.Domain.dll
+C:\Users\mobin\RiderProjects\CarRental\CarRental.Domain\obj\Debug\net8.0\CarRental.Domain.sourcelink.json

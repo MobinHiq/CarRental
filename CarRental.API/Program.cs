@@ -33,10 +33,21 @@ builder.Services.AddFluentValidationAutoValidation(config =>
 builder.Services.AddValidatorsFromAssemblyContaining<RentalPickupRequestValidator>();
 
 var redisConnectionString = builder.Configuration.GetValue<string>("Redis:ConnectionStrings") 
-                            ?? "localhost:6379,abortConnect=false";
+                            ?? "localhost:6379";
+
+// Configure Redis with more resilient settings
+var redisConfig = new ConfigurationOptions
+{
+    EndPoints = { redisConnectionString },
+    ConnectTimeout = 10000, // 10 seconds
+    SyncTimeout = 10000,
+    AbortOnConnectFail = false,
+    ConnectRetry = 3,
+    AllowAdmin = true
+};
 
 builder.Services.AddSingleton<IConnectionMultiplexer>(sp => 
-    ConnectionMultiplexer.Connect(redisConnectionString));
+    ConnectionMultiplexer.Connect(redisConfig));
 
 // Then register your Redis cache service
 builder.Services.AddScoped<IRedisCacheService, RedisCacheService>();

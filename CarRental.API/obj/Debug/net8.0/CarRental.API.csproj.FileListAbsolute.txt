@@ -149,3 +149,4 @@ C:\Users\mobin\RiderProjects\CarRental\CarRental.API\obj\Debug\net8.0\refint\Car
 C:\Users\mobin\RiderProjects\CarRental\CarRental.API\obj\Debug\net8.0\CarRental.API.pdb
 C:\Users\mobin\RiderProjects\CarRental\CarRental.API\obj\Debug\net8.0\CarRental.API.genruntimeconfig.cache
 C:\Users\mobin\RiderProjects\CarRental\CarRental.API\obj\Debug\net8.0\ref\CarRental.API.dll
+C:\Users\mobin\RiderProjects\CarRental\CarRental.API\obj\Debug\net8.0\CarRental.API.sourcelink.json

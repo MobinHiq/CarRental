@@ -131,3 +131,4 @@ C:\Users\mobin\RiderProjects\CarRental\CarRental.Tests\obj\Debug\net8.0\CarRenta
 C:\Users\mobin\RiderProjects\CarRental\CarRental.Tests\obj\Debug\net8.0\ref\CarRental.Tests.dll
 C:\Users\mobin\RiderProjects\CarRental\CarRental.Tests\bin\Debug\net8.0\AutoFixture.dll
 C:\Users\mobin\RiderProjects\CarRental\CarRental.Tests\bin\Debug\net8.0\Fare.dll
+C:\Users\mobin\RiderProjects\CarRental\CarRental.Tests\obj\Debug\net8.0\CarRental.Tests.sourcelink.json

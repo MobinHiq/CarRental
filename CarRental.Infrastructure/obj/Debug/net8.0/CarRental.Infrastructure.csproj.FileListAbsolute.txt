@@ -15,3 +15,4 @@ C:\Users\mobin\RiderProjects\CarRental\CarRental.Infrastructure\obj\Debug\net8.0
 C:\Users\mobin\RiderProjects\CarRental\CarRental.Infrastructure\obj\Debug\net8.0\CarRental.Infrastructure.pdb
 C:\Users\mobin\RiderProjects\CarRental\CarRental.Infrastructure\obj\Debug\net8.0\CarRental.Infrastructure.genruntimeconfig.cache
 C:\Users\mobin\RiderProjects\CarRental\CarRental.Infrastructure\obj\Debug\net8.0\ref\CarRental.Infrastructure.dll
+C:\Users\mobin\RiderProjects\CarRental\CarRental.Infrastructure\obj\Debug\net8.0\CarRental.Infrastructure.sourcelink.json

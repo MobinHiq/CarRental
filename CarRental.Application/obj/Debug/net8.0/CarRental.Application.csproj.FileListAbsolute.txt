@@ -15,3 +15,4 @@ C:\Users\mobin\RiderProjects\CarRental\CarRental.Application\obj\Debug\net8.0\Ca
 C:\Users\mobin\RiderProjects\CarRental\CarRental.Application\obj\Debug\net8.0\refint\CarRental.Application.dll
 C:\Users\mobin\RiderProjects\CarRental\CarRental.Application\obj\Debug\net8.0\CarRental.Application.pdb
 C:\Users\mobin\RiderProjects\CarRental\CarRental.Application\obj\Debug\net8.0\ref\CarRental.Application.dll
+C:\Users\mobin\RiderProjects\CarRental\CarRental.Application\obj\Debug\net8.0\CarRental.Application.sourcelink.json
